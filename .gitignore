@@ -1,0 +1,14 @@
+*
+
+!.gitignore
+!LICENSE
+!README.md
+!pyproject.toml
+
+!dicom_rtstruct/
+!dicom_rtstruct/**
+
+!tests/
+!tests/**
+
+*.pyc
