@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dicom-rtstruct"
+version = "0.1.0"
+description = "Create DICOM RTStruct"
+authors = ["Gabriel Couture <gacou54@ulaval.ca>"]
+license = "GPL-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydicom = "^2.4.4"
+
+[tool.poetry.group.cli.dependencies]
+click = "^8.1.7"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+click = "^8.1.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
